@@ -3,16 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Busy Bees Foundation School — Culture, Skills &amp; Hard Work for Positive Transformation</title>
+<title>Busy Bees Foundation School - Culture, Skills &amp; Hard Work for Positive Transformation</title>
 <meta name="description" content="Busy Bees Foundation School in Kigali, Rwanda nurtures curious, confident learners from Nursery through Primary 6 through Rwanda's Competency-Based Curriculum, delivered in a safe, Christ-centered community.">
 <meta name="theme-color" content="#002E6D">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Busy Bees Foundation School">
-<meta property="og:title" content="Busy Bees Foundation School — Culture, Skills &amp; Hard Work for Positive Transformation">
+<meta property="og:title" content="Busy Bees Foundation School - Culture, Skills &amp; Hard Work for Positive Transformation">
 <meta property="og:description" content="A community-built education in Kigali, Rwanda — where every learner grows in knowledge, character and confidence, from Nursery through Primary 6.">
 <meta property="og:url" content="https://bbfs.ac.rw/">
+<meta property="og:image" content="https://bbfs.ac.rw/assets/logo/logo-blue-bg.png">
+<meta property="og:image:secure_url" content="https://bbfs.ac.rw/assets/logo/logo-blue-bg.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:alt" content="Busy Bees Foundation School logo">
 <meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Busy Bees Foundation School - Culture, Skills &amp; Hard Work for Positive Transformation">
+<meta name="twitter:description" content="A community-built education in Kigali, Rwanda — where every learner grows in knowledge, character and confidence, from Nursery through Primary 6.">
+<meta name="twitter:image" content="https://bbfs.ac.rw/assets/logo/logo-blue-bg.png">
+<meta name="twitter:image:alt" content="Busy Bees Foundation School logo">
 
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="canonical" href="https://bbfs.ac.rw/">
@@ -26,20 +38,54 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  "name": "Busy Bees Foundation School",
-  "alternateName": "BBFS",
-  "url": "https://bbfs.ac.rw/",
-  "foundingDate": "2013",
-  "slogan": "Culture, Skills and Hard Work for Positive Transformation",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Giheka Village, Kagugu Cell, Kinyinya Sector",
-    "addressLocality": "Gasabo District, Kigali City",
-    "addressCountry": "RW"
-  },
-  "telephone": ["+250788312821", "+250788534097"],
-  "email": "bbfs.school2021@gmail.com"
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://bbfs.ac.rw/#organization",
+      "name": "Busy Bees Foundation School",
+      "alternateName": "BBFS",
+      "url": "https://bbfs.ac.rw/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://bbfs.ac.rw/#logo",
+        "url": "https://bbfs.ac.rw/assets/logo/logo-blue-bg.png",
+        "contentUrl": "https://bbfs.ac.rw/assets/logo/logo-blue-bg.png",
+        "width": 1000,
+        "height": 1000,
+        "caption": "Busy Bees Foundation School"
+      },
+      "image": { "@id": "https://bbfs.ac.rw/#logo" },
+      "foundingDate": "2013",
+      "slogan": "Culture, Skills and Hard Work for Positive Transformation",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Giheka Village, Kagugu Cell, Kinyinya Sector",
+        "addressLocality": "Gasabo District, Kigali City",
+        "addressCountry": "RW"
+      },
+      "telephone": ["+250788312821", "+250788534097"],
+      "email": "bbfs.school2021@gmail.com",
+      "sameAs": ["https://www.instagram.com/busybeesfoundationschool"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://bbfs.ac.rw/#website",
+      "url": "https://bbfs.ac.rw/",
+      "name": "Busy Bees Foundation School",
+      "publisher": { "@id": "https://bbfs.ac.rw/#organization" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://bbfs.ac.rw/#webpage",
+      "url": "https://bbfs.ac.rw/",
+      "name": "Busy Bees Foundation School - Culture, Skills & Hard Work for Positive Transformation",
+      "description": "Busy Bees Foundation School in Kigali, Rwanda nurtures curious, confident learners from Nursery through Primary 6 through Rwanda's Competency-Based Curriculum, delivered in a safe, Christ-centered community.",
+      "isPartOf": { "@id": "https://bbfs.ac.rw/#website" },
+      "about": { "@id": "https://bbfs.ac.rw/#organization" },
+      "inLanguage": "en"
+    }
+  ]
 }
 </script>
 </head>
